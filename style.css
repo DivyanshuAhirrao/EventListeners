@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.details {
+    padding: 25px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 80%;
+    border: 2px solid saddlebrown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+ol {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 55%;
+}
+li {
+    background-color: rgb(255, 208, 0);
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.form-main{
+    height: 500px;
+    width: 350px;
+    border: 2px solid rgb(192, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(8, 8, 8,0.8);
+}
+input{
+    width: 15rem;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+label{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding:0px 19px;
+    background: linear-gradient(90deg,rgb(206, 206, 238),rgb(235, 227, 227), rgb(206, 206, 238));
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 30px;
+    position: relative;
+    top: 20px;
+}
+#buton-1, #buton-2{
+    padding: 2px 15px;
+    background-color: rgba(63, 250, 6, 0.3);
+}
+.visible-span {
+    color: rgb(247, 127, 127);
+    font-size: 12px;
+    position: relative;
+    bottom: 8px;
+}
+.mouse-events {
+    position: relative;
+    margin: 50px 0 100px 0;
+}
+.s1{
+    color: brown;
+    font-size: 12px;
+    text-align: center;
+}
+#btn-mouse{
+    padding: 10px 50px;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width :450px) {
+   li{
+    font-size: 4vw;
+   }
+}
